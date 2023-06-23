@@ -1,4 +1,5 @@
 import 'dotenv/config.js'
+import './config/db.js'
 import createError from 'http-errors'     //modulo necesario para crear/configurar errores en nuestro servidor
 import express from 'express'             //modulo necesario para levantar y configurar un servidor
 import path from 'path'                   //modulo necesario para conocer la ubicación de nuestro servidor
